@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component should render component SearchAuthor 1`] = `
+<th>
+  <input
+    onChange={[Function]}
+    placeholder="Автор"
+    type="text"
+  />
+</th>
+`;
+
+exports[`Search component should render component SearchGenre 1`] = `
+<th>
+  <input
+    onChange={[Function]}
+    placeholder="Жанр"
+    type="text"
+  />
+</th>
+`;
+
+exports[`Search component should render component SearchTitle 1`] = `
+<th>
+  <input
+    onChange={[Function]}
+    placeholder="Название"
+    type="text"
+  />
+</th>
+`;

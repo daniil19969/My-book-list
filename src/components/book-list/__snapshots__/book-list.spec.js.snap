@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookList component should render component BookList 1`] = `
+<Fragment>
+  <tr
+    className="list"
+    key="1"
+  >
+    <BookListItem
+      book={
+        Object {
+          "author": "Дж. К. Роулинг",
+          "coverImage": "https://knigopoisk.org/media/books/Dz/55x83/Dzh_55x83.jpg",
+          "genre": "Фэнтези",
+          "id": "1",
+          "title": "Гарри Поттер и философский камень",
+        }
+      }
+    />
+  </tr>
+  <tr
+    className="list"
+    key="2"
+  >
+    <BookListItem
+      book={
+        Object {
+          "author": "Дж. К. Роулинг",
+          "coverImage": "https://knigopoisk.org/media/books/Dz/55x81/Dzh_55x81.jpg",
+          "genre": "Фэнтези",
+          "id": "2",
+          "title": "Гарри Поттер и узник Азкабана",
+        }
+      }
+    />
+  </tr>
+  <tr
+    className="list"
+    key="3"
+  >
+    <BookListItem
+      book={
+        Object {
+          "author": "Дж. К. Роулинг",
+          "coverImage": "https://knigopoisk.org/media/books/Dz/55x85/Dzh_55x85.jpg",
+          "genre": "Фэнтези",
+          "id": "3",
+          "title": "Гарри Поттер и Дары Смерти",
+        }
+      }
+    />
+  </tr>
+  <tr
+    className="list"
+    key="4"
+  >
+    <BookListItem
+      book={
+        Object {
+          "author": "Дж. К. Роулинг",
+          "coverImage": "https://knigopoisk.org/media/books/Ha/55x83/Harry_Potter_and_the_Goblet_of_Fire_book_55x83.jpg",
+          "genre": "Фэнтези",
+          "id": "4",
+          "title": "Гарри Поттер и Кубок Огня",
+        }
+      }
+    />
+  </tr>
+  <tr
+    className="list"
+    key="5"
+  >
+    <BookListItem
+      book={
+        Object {
+          "author": "Дж. К. Роулинг",
+          "coverImage": "https://knigopoisk.org/media/books/or/55x84/orden_feniksa_garri_poter_55x84.jpg",
+          "genre": "Фэнтези",
+          "id": "5",
+          "title": "Гарри Поттер и Орден Феникса",
+        }
+      }
+    />
+  </tr>
+  <tr
+    className="list"
+    key="6"
+  >
+    <BookListItem
+      book={
+        Object {
+          "author": "Маргарет Митчелл",
+          "coverImage": "https://knigopoisk.org/media/books/10/55x84/10202_1_55x84.jpg",
+          "genre": "Роман",
+          "id": "6",
+          "title": "Унесенные ветром",
+        }
+      }
+    />
+  </tr>
+  <tr
+    className="list"
+    key="7"
+  >
+    <BookListItem
+      book={
+        Object {
+          "author": "Александр Дюма",
+          "coverImage": "https://knigopoisk.org/media/books/13/55x87/1396800484_aleksandr-dyuma-graf-monte-kristo_55x87.jpg",
+          "genre": "Приключения",
+          "id": "7",
+          "title": "Граф Монте-Кристо",
+        }
+      }
+    />
+  </tr>
+  <tr
+    className="list"
+    key="8"
+  >
+    <BookListItem
+      book={
+        Object {
+          "author": "Стивен Кинг",
+          "coverImage": "https://knigopoisk.org/media/books/ze/55x84/zelenaja_milja_stiven_king_55x84.jpg",
+          "genre": "Мистика",
+          "id": "8",
+          "title": "Зеленая миля",
+        }
+      }
+    />
+  </tr>
+  <tr
+    className="list"
+    key="9"
+  >
+    <BookListItem
+      book={
+        Object {
+          "author": "Стивен Кинг",
+          "coverImage": "https://knigopoisk.org/media/books/53/55x87/53f35402d20cf_55x87.jpg",
+          "genre": "Реализм",
+          "id": "9",
+          "title": "Рита Хейуорт и спасение из Шоушенка",
+        }
+      }
+    />
+  </tr>
+  <tr
+    className="list"
+    key="10"
+  >
+    <BookListItem
+      book={
+        Object {
+          "author": "Борис Васильев",
+          "coverImage": "https://knigopoisk.org/media/books/Bo/55x87/Boris_Vasilev__A_zori_zdes_tihie_55x87.jpg",
+          "genre": "Военная литература",
+          "id": "10",
+          "title": "А зори здесь тихие…",
+        }
+      }
+    />
+  </tr>
+</Fragment>
+`;

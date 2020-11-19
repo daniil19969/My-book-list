@@ -1,25 +1,16 @@
 import React, { Component } from "react";
-
+import "./search.css";
 export default class SearchGenre extends Component {
-  state = {
-    term: "",
-  };
-
   onSearchChange = (e) => {
     const term = e.target.value;
-    this.setState({ term });
-    this.props.onSearchChange(term);
+    const { onSearchChange } = this.props;
+    onSearchChange(term);
   };
 
   render() {
     return (
       <th>
-        <input
-          placeholder="Жанр"
-          type="text"
-          value={this.state.term}
-          onChange={this.onSearchChange}
-        />
+        <input placeholder="Жанр" type="text" onChange={this.onSearchChange} />
       </th>
     );
   }

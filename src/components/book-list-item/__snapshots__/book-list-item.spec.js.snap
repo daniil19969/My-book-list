@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookListItem component should render component BookListItem 1`] = `
+<Fragment>
+  <td>
+    <img
+      alt="cover"
+      className="smallImage"
+    />
+  </td>
+  <td />
+  <td />
+  <td />
+</Fragment>
+`;

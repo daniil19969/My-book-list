@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should render component App 1`] = `
+<div>
+  <Header />
+  <table
+    className="table"
+  >
+    <thead
+      className="head"
+    >
+      <tr>
+        <th
+          rowSpan="2"
+        >
+          Обложка
+        </th>
+        <th>
+          Название
+        </th>
+        <th>
+          Автор
+        </th>
+        <th>
+          Жанр
+        </th>
+      </tr>
+      <tr>
+        <SearchTitle
+          onSearchChange={[Function]}
+        />
+        <SearchAuthor
+          onSearchChange={[Function]}
+        />
+        <SearchGenre
+          onSearchChange={[Function]}
+        />
+      </tr>
+    </thead>
+    <tbody>
+      <BookList
+        book={Array []}
+      />
+    </tbody>
+  </table>
+</div>
+`;
